@@ -1,0 +1,26 @@
+.contact-content{
+    /* background-color: rgb(185, 185, 250); */
+    display: block;
+    /* height: 320px; */
+    height: 100vh;
+    margin-top: 20px;
+    position: relative;
+    
+}
+
+.contact-content::after {
+    content: "";
+    background-image: url(../img/home.jpg);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: inherit;
+    /* opacity: .8; */
+    background-size: auto;
+    z-index: -1;
+}
+
+.contact-form{
+    /* height: 100vw; */
+}
+
